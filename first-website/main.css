@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+p {
+    background-color:turquoise;
+
+    border: 20px dashed pink;
+
+    /*margin will create external space around our element*/
+    margin:50px;
+    /*padding will seperate the words from the borders*/
+    /* the command for comment key is ctrl question mark key */
+    padding:50px;
+}
+
+h1 {
+    color:palevioletred;
+}
+
+.banner {
+    background-color: yellow;
+    font-size: 40px;
+    text-align: center;
+}

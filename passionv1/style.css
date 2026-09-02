@@ -1,0 +1,11 @@
+p {
+text-align: center;
+color: deeppink;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  color: deeppink
+}
