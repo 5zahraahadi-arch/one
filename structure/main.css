@@ -1,0 +1,12 @@
+img {
+    max-width: 100%;
+}
+.center {
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50px;
+  padding-inline: red;
+}

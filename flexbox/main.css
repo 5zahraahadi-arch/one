@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+}
+/* by defult flexboxse will render in the row layout */
+.container {
+    background:lightblue;
+    padding:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:10px;
+}
+.item {
+    background:lightslategray;
+    border:1px solid;
+    padding:10px;
+    width:200px;
+}
+.two-column{
+    background:lightblue;
+    paddding:10px;
+}

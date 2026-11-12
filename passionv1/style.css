@@ -9,3 +9,10 @@ color: deeppink;
   height: 100px;
   color: deeppink
 }
+.image-banner {
+  background-color:red;
+  height: 100px;
+  background-image: url(pinkbackground.jpg);
+  background-size:contain;
+  
+}

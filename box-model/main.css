@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+}
+/* no matter how short or small black elements are, they will never stak horizontally, only virtically. they also defult to taking up one hundred percent of their virtical space */
+.block{
+    background: lightblue;
+    border:1px solid;
+    padding:10px;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+.inline{
+    background: lightgreen;
+    border:1px solid;
+  /* inline elements cant use certain propoerties like margin, padding, width, and height work inconsistently with inline elements and should be avoided when possible */
+}
+/* inline blocks combine qulities of both block and inline allowing us to add width height pading and margin to inline elements */
+.inline-block {
+    background:lightpink;
+    border:1px solid;
+    display:inline-block;
+    margin:20px;
+    padding:20px;
+}
+div {
+    display:block;
+    unicode-bidi: isolate;
+}
+.content-box{
+    background:pink;
+    width:200px;
+    height:200px;
+    padding:50px;
+    border:10px solid lightcyan;
+    margin: 20px;
+}
+.border-box{
+    background:yellow;
+    width:200px;
+    height:200px;
+    padding:50px;
+    border:10px solid lightyellow;
+    margin: 20px;
+    box-sizing:border-box;
+}

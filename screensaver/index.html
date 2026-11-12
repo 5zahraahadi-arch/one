@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ScreenSaver</title>
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+        <style>
+            img:spin {
+  animation: spin 5s;
+  animation-iteration-count: infinite;
+}
+ body {
+  background-image: url('flowers.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+
+}
+@keyframes spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+.spin { animation: spin 3s linear infinite; }
+</style>
+        <p></P>
+            <img class="spin" src="daisy.png">
+            <img class="spin" src="loneflower.png">
+            
+            <img class="spin" src="daisy.png">
+            
+    </body>
+    </html>
